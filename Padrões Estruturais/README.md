@@ -1,0 +1,22 @@
+## Padrões Estruturais:
+- ### Adapter (Padrão Adaptador):
+- Propósito: Permite que a interface de uma classe existente seja usada como outra interface.
+- Uso Típico: Quando você deseja usar uma classe existente, mas sua interface não é compatível com o que você precisa.
+- ### Bridge (Padrão Bridge):
+- Propósito: Desacopla uma abstração de sua implementação, de modo que as duas possam variar independentemente.
+- Uso Típico: Quando você tem abstrações e implementações que precisam ser estendidas de forma independente.
+- ### Composite (Padrão Composto):
+- Propósito: Compose objetos em estruturas de árvore para representar hierarquias de parte-todo.
+- Uso Típico: Quando partes de um objeto e o próprio objeto precisam ser tratados de maneira uniforme.
+- ### Decorator (Padrão Decorador):
+- Propósito: Anexa responsabilidades adicionais a um objeto dinamicamente.
+- Uso Típico: Para estender as funcionalidades de classes de maneira dinâmica e flexível.
+- ### Facade (Padrão Fachada):
+- Propósito: Fornece uma interface unificada para um conjunto de interfaces em um subsistema.
+- Uso Típico: Quando você quer fornecer uma interface simplificada para um conjunto complexo de interfaces.
+- ### Flyweight (Padrão Peso-Leve):
+- Propósito: Usa compartilhamento para oferecer suporte eficiente a um grande número de objetos pequenos.
+- Uso Típico: Quando muitos objetos idênticos ou semelhantes precisam ser criados.
+- ### Proxy (Padrão Proxy):
+- Propósito: Fornece um substituto ou marcador de um outro objeto para controlar o acesso a ele.
+- Uso Típico: Quando você quer controlar o acesso a um objeto.

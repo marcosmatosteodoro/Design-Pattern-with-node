@@ -1,0 +1,34 @@
+## Padrões Comportamentais:
+- ### Chain of Responsibility (Padrão Corrente de Responsabilidade):
+  - Propósito: Passa uma solicitação ao longo de uma cadeia de manipuladores.
+  - Uso Típico: Quando mais de um objeto pode tratar uma solicitação.
+- ### Command (Padrão Comando):
+  - Propósito: Encapsula uma solicitação como um objeto.
+  - Uso Típico: Quando você deseja parametrizar objetos com operações, enfileirar operações ou registrar as operações que estão sendo executadas.
+- ### Interpreter (Padrão Intérprete):
+  - Propósito: Define uma gramática para uma linguagem e um interpretador para interpretar as sentenças dessa linguagem.
+  - Uso Típico: Quando você precisa de uma maneira de interpretar uma linguagem gramatical.
+- ### Iterator (Padrão Iterador):
+  - Propósito: Fornece uma maneira de acessar sequencialmente os elementos de um objeto agregado.
+  - Uso Típico: Quando você deseja fornecer uma maneira uniforme de acessar diferentes tipos de coleções.
+- ### Mediator (Padrão Mediador):
+  - Propósito: Define um objeto que centraliza a comunicação entre objetos em um sistema.
+  - Uso Típico: Quando os objetos precisam se comunicar de maneira complexa, mas não devem estar acoplados.
+- ### Memento (Padrão Memento):
+  - Propósito: Captura e externaliza um estado interno de um objeto, de modo que o objeto possa ser restaurado para este estado mais tarde.
+  - Uso Típico: Quando o estado de um objeto precisa ser salvo e restaurado.
+- ### Observer (Padrão Observador):
+  - Propósito: Define uma dependência de um para muitos entre objetos.
+  - Uso Típico: Quando uma alteração em um objeto requer alterações em outros objetos e você não sabe quantos objetos precisam ser alterados.
+- ### State (Padrão Estado):
+  - Propósito: Permite que um objeto altere seu comportamento quando seu estado interno muda.
+  - Uso Típico: Quando um objeto deve alterar seu comportamento em resposta a mudanças em seu estado interno.
+- ### Strategy (Padrão Estratégia):
+  - Propósito: Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis.
+  - Uso Típico: Quando você tem muitas classes que fazem a mesma coisa de maneiras diferentes e você deseja poder trocar entre essas maneiras facilmente.
+- ### Template Method (Padrão Método de Modelo):
+  - Propósito: Define o esqueleto de um algoritmo em uma operação, postergando alguns passos para subclasses.
+  - Uso Típico: Quando você deseja permitir que as subclasses redefinam partes de um algoritmo sem alterar sua estrutura.
+- ### Visitor (Padrão Visitante):
+  - Propósito: Representa uma operação a ser realizada nos elementos de uma estrutura de objetos.
+  - Uso Típico: Quando você deseja definir uma nova operação em uma estrutura de objetos sem alterar os objetos.
